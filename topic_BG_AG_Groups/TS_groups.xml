@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <!-- 
+  <include name="ui"></include>
+  
+  <include name="security"></include> 
+  -->
+  <exclude name="db"></exclude>
+  </run>
+  </groups>
+    <classes>
+      <class name="topic_BG_AG_Groups.TestGrouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

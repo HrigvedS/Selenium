@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="BrowserTest">
+  <test name="Test1_chrome">
+  <parameter name="browser" value="chrome">
+  </parameter>
+    <classes>
+      <class name="topic_ITest.Testresultcontext"/>
+    </classes>
+  </test> 
+   <test name="Test2_Edge">
+  <parameter name="browser" value="edge">
+  </parameter>
+    <classes>
+      <class name="topic_ITest.Testresultcontext"/>
+    </classes>
+  </test> 
+   <test name="Test3_FF">
+  <parameter name="browser" value="ff">
+  </parameter>
+    <classes>
+      <class name="topic_ITest.Testresultcontext"/>
+    </classes>
+  </test> 
+</suite> 

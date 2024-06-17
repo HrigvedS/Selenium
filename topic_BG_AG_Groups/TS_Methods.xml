@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+ 
+    <classes>
+      <class name="topic_BG_AG_Groups.TestGrouping">
+      <methods>
+     <!--  <include name="testInsert"></include>
+      <include name="test_CampaignsPage"></include> -->
+      
+      <exclude name="testInsert"></exclude>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
